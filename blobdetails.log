@@ -1,0 +1,92 @@
+https://publicstoragearootedcon.blob.core.windows.net/publiccontainer/hint.rtf
+{
+    "authorization": {
+        "action": "Microsoft.Storage/storageAccounts/blobServices/containers/write",
+        "condition": null,
+        "role": null,
+        "scope": "/subscriptions/redacted/resourcegroups/RootedCONCTFRG/providers/Microsoft.Storage/storageAccounts/publicstoragearootedcon/blobServices/default/containers/publiccontainer"
+    },
+    "caller": "nis3x.sh@gmail.com",
+    "channels": "Operation",
+    "claims": {
+        "aud": "https://management.core.windows.net/",
+        "iss": "https://sts.windows.net/redacted/",
+        "iat": "1709472133",
+        "nbf": "1709472133",
+        "exp": "1709476531",
+        "http://schemas.microsoft.com/claims/authnclassreference": "1",
+        "aio": "AYQAe/8WAAAAhgajiyCfAHmW5RoIH7BraxIw7GxSD0R3GC4yjDNAdPkeqNpwnlSzbNG+mlABCUz/3g9Qvp34RWs07CEoaaj1pgolCD0JunTUlrA04IrH8u6v6rQFyZ8qFr7Oimc8DsKIitNz5jEWSsoTNd8FDFrQa/oiIKK9gEiTLCIA06O/kIM=",
+        "altsecid": "1:live.com:000300005B1688BF",
+        "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+        "appid": "redacted",
+        "appidacr": "2",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "nis3x.sh@gmail.com",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Nis3x",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Nis3x",
+        "groups": "84dccbf4-911a-49ed-bf10-6c94c04226c6",
+        "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+        "idtyp": "user",
+        "ipaddr": "redacted",
+        "name": "Nis3x Nis3x",
+        "http://schemas.microsoft.com/identity/claims/objectidentifier": "redactedd",
+        "puid": "redacted",
+        "rh": "redacted",
+        "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "UCiT-DFQG-v9t4aXQA3oJQpqWyR1uBWQO1Dm7UHiPek",
+        "http://schemas.microsoft.com/identity/claims/tenantid": "redacted",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#nis3x.sh@gmail.com",
+        "uti": "pPgqLOqf1UCKguPdQXqeAQ",
+        "ver": "1.0",
+        "wids": "6redacted",
+        "xms_cae": "1",
+        "xms_edov": "true",
+        "xms_tcdt": "1678057834"
+    },
+    "correlationId": "redacted",
+    "description": "",
+    "eventDataId": "redacted",
+    "eventName": {
+        "value": "BeginRequest",
+        "localizedValue": "Begin request"
+    },
+    "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+    },
+    "eventTimestamp": "2024-03-03T13:30:44.6977699Z",
+    "id": "/subscriptions/redacted/resourcegroups/RootedCONCTFRG/providers/Microsoft.Storage/storageAccounts/publicstoragearootedcon/blobServices/default/containers/publiccontainer/events/redacted/ticks/638450694446977699",
+    "level": "Informational",
+    "operationId": "redacted",
+    "operationName": {
+        "value": "Microsoft.Storage/storageAccounts/blobServices/containers/write",
+        "localizedValue": "Put blob container"
+    },
+    "resourceGroupName": "RootedCONCTFRG",
+    "resourceProviderName": {
+        "value": "Microsoft.Storage",
+        "localizedValue": "Microsoft.Storage"
+    },
+    "resourceType": {
+        "value": "Microsoft.Storage/storageAccounts/blobServices/containers",
+        "localizedValue": "Microsoft.Storage/storageAccounts/blobServices/containers"
+    },
+    "resourceId": "/subscriptions/redacted/resourcegroups/RootedCONCTFRG/providers/Microsoft.Storage/storageAccounts/publicstoragearootedcon/blobServices/default/containers/publiccontainer",
+    "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+    },
+    "subStatus": {
+        "value": "",
+        "localizedValue": ""
+    },
+    "submissionTimestamp": "2024-03-03T13:32:29Z",
+    "subscriptionId": "redacted",
+    "tenantId": "redacted",
+    "properties": {
+        "eventCategory": "Administrative",
+        "entity": "/subscriptions/redacted/resourcegroups/RootedCONCTFRG/providers/Microsoft.Storage/storageAccounts/publicstoragearootedcon/blobServices/default/containers/publiccontainer",
+        "message": "Microsoft.Storage/storageAccounts/blobServices/containers/write",
+        "hierarchy": "redacted/RootedCONCTFMG/redacted"
+    },
+    "relatedEvents": []
+}
